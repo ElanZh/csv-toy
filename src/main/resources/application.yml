@@ -1,0 +1,5 @@
+file:
+  # 要读取的文件名
+  readInFile: source.csv
+  # 要写出的文件名
+  writeOutFile: target.csv
