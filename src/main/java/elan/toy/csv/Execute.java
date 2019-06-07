@@ -1,5 +1,6 @@
 package elan.toy.csv;
 
+import elan.toy.csv.biz.ReadService;
 import elan.toy.csv.config.SysConfig;
 import org.yaml.snakeyaml.Yaml;
 
@@ -20,6 +21,6 @@ public class Execute {
         Yaml yaml = new Yaml();
         SysConfig sysConfig = yaml.loadAs(new FileInputStream(new File("./application.yml")), SysConfig.class);
 
-        System.out.println(sysConfig.getFile().getReadInFile());
+        ReadService.readSheet(sysConfig);
     }
 }
