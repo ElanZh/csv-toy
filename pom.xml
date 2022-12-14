@@ -13,7 +13,7 @@
     <apache-common-version>3.7</apache-common-version>
     <common-lang-version>2.6</common-lang-version>
     <opencsv-version>4.6</opencsv-version>
-    <yaml-version>1.23</yaml-version>
+    <yaml-version>1.32</yaml-version>
 
   </properties>
 
